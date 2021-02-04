@@ -18,4 +18,5 @@ def calculator_handle():
             result = {}
             result['result'] = calculator.prefix_calculator(contents['expression'])
             return jsonify(result)
-
+    else:
+        return "Invalid expression", 500
