@@ -18,7 +18,9 @@ This will show 2 options
 2. Rest server mode - Reset server is running on port 8085
 
 #####Eg: Console 
-Which mode you want to start the application (1.Console/2.Rest Server) >1\
+
+Which mode you want to start the application (1.Console/2.Rest Server) >1
+
 *******Kheiron Calculator (Prefix/Infix)********* 
  
 Type q to exit 
@@ -35,6 +37,7 @@ curl -X POST \
 }'
 
 ###Testing
+
 Calculator package test cases are located in kheiron/calculator_test.py 
 
 REST server related tests are located in test_rest_server.py
